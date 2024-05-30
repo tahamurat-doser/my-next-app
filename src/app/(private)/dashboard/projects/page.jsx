@@ -4,9 +4,12 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
+    <div  >
         <h1 className='text-2xl text-center'>Projects</h1>
-        <GoBack />
+        <div className='m-5' >
+          <GoBack />
+        </div>
+        
     </div>
   )
 }
